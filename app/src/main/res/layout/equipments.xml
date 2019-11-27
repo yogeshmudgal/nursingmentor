@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+        <include layout="@layout/header_activities" />
+    </android.support.v7.widget.Toolbar>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_weight="100"
+    android:layout_height="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm2">
+
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Functional Autoclave Machine" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm3">
+
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Functional Boiler" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg2"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm2">
+
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Bucket attached with Labor table" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg3"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm3">
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Wall clock with seconds hand" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg4"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm2">
+
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Color coded bags for disposal of biomadical waste" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg5"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm3">
+
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Doppler in labour room" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg6"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm2">
+
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Footstep" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg7"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm3">
+
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Matters for Labour Table" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg8"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm2">
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Functional oxigen cylender(with wrench)" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg9"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm3">
+
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Protocal poster displayed" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg10"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm2">
+
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Examination Table" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg11"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm3">
+
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Examination Tray" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg12"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm2">
+
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Functional Radiant warner" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg13"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+
+            style="@style/ParentLinearLayoutForm3">
+
+            <TextView
+
+                style="@style/TextViewForAsteric"
+                android:text="Functional baby weighing scale" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/equip_rg14"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_yes" />
+
+                    <RadioButton
+
+                        style="@style/RadioVForm"
+                        android:text="@string/common_no" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="#006064"
+            android:textColor="@android:color/white"
+            android:id="@+id/equip_back"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:text="@string/button_back"
+            android:layout_weight="1"/>
+        <Button
+            android:background="#006064"
+            android:textColor="@android:color/white"
+            android:id="@+id/equip_save"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_save"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>

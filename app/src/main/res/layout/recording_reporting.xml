@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+        <include layout="@layout/header_activities" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout style="@style/ParentLinearLayoutForm2">
+
+        <TextView
+            style="@style/TextViewForAsteric2"
+            android:text="@string/section_g_label_1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/rr_rg1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/yes1"
+                    style="@style/RadioVForm"
+                    android:text="@string/common_yes" />
+
+                <RadioButton
+                    android:id="@+id/no1"
+                    style="@style/RadioVForm"
+                    android:text="@string/common_no" />
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/ParentLinearLayoutForm3">
+
+        <TextView
+            style="@style/TextViewForAsteric2"
+            android:text="@string/section_g_label_2" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/rr_rg3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/yes3"
+                    style="@style/RadioVForm"
+                    android:text="@string/common_yes" />
+
+                <RadioButton
+                    android:id="@+id/no3"
+                    style="@style/RadioVForm"
+                    android:text="@string/common_no" />
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/ParentLinearLayoutForm2">
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/TextViewForAsteric2"
+            android:text="@string/section_g_label_3" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/rr_rg2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/yes2"
+                    style="@style/RadioVForm"
+                    android:text="@string/common_yes" />
+
+                <RadioButton
+                    android:id="@+id/no2"
+                    style="@style/RadioVForm"
+                    android:text="@string/common_no" />
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/ParentLinearLayoutForm3">
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/TextViewForAsteric2"
+            android:text="@string/section_g_label_4" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/rr_rg4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/yes4"
+                    style="@style/RadioVForm"
+                    android:text="@string/common_yes" />
+
+                <RadioButton
+                    android:id="@+id/no4"
+                    style="@style/RadioVForm"
+                    android:text="@string/common_no" />
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rr_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/button_back"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/rr_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/button_save"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/loilo"
+        style="@style/ParentLinearLayoutForm4">
+
+        <TextView
+            style="@style/TextViewForAsteric22"
+            android:text="Level of Intervention" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <Spinner
+            android:id="@+id/infra_spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:entries="@array/level_of_intervention"
+            android:maxLines="1" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btn_loi"
+            android:layout_toStartOf="@+id/btn_loi"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:text="Cancel"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/btn_loi"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:text="Ok"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text=""/>
+     </LinearLayout>-->
+</LinearLayout>

@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+        <include layout="@layout/header_activities" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout style="@style/ParentLinearLayoutForm2">
+
+        <TextView
+            style="@style/TextViewForAsteric2"
+            android:text="Level of Intervention"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/infra_spinner1"
+
+                style="@style/TextViewForAsteric"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/facility_type"
+                android:text="Current"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/infra_spinner1_pre"
+                style="@style/TextViewForAsteric"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/facility_type"
+                android:text="Previous"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_1" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg1"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg1_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_2" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg2"
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg2_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_3" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg3"
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp">
+
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg3_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_4" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg4"
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical"
+                        android:textSize="14sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg4_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_5" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg5"
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp">
+
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg5_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_6" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg6"
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg6_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_7" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg7"
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp">
+
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg7_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_8" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg8"
+
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+
+                    <TextView
+                        android:id="@+id/lr_rg8_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_9" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg9"
+
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+
+                    <TextView
+                        android:id="@+id/lr_rg9_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_10" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg10"
+
+                        style="@style/TextViewForAsteric2"
+
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg10_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_11" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg11"
+
+                        style="@style/TextViewForAsteric2"
+
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg11_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_12" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg12"
+
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg12_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_13" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg13"
+
+                        style="@style/TextViewForAsteric2"
+
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg13_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_14" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg14"
+
+                        style="@style/TextViewForAsteric2"
+
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg14_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_15" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg15"
+
+                        style="@style/TextViewForAsteric2"
+
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg15_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_16" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg16"
+
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg16_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_17" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg17"
+
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg17_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_18" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg18"
+
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg18_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_19" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg19"
+
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg19_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_20" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg20"
+
+                        style="@style/TextViewForAsteric2"
+
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg20_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_21" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg21"
+
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg21_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_22" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg22"
+
+                        style="@style/TextViewForAsteric2"
+
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg22_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_23" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg23"
+
+                        style="@style/TextViewForAsteric2"
+
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg23_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_24" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg24"
+
+                        style="@style/TextViewForAsteric2"
+
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg24_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_25" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg25"
+
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg25_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_d_label_26" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lr_rg26"
+
+                        style="@style/TextViewForAsteric2"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lr_rg26_pre"
+                        style="@style/TextViewForAsteric2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/lr_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/button_save"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/lr_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/button_back"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

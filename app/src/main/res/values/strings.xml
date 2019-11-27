@@ -1,0 +1,338 @@
+<resources>
+    <string name="app_name">Mentor App</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="nhm_rajasthan">स्वास्थ्य एवं परिवार कल्याण विभाग (राजस्थान सरकार)</string>
+    <string name="nhm_gov">स्वास्थ्य और परिवार कल्याण मंत्रालय</string>
+    <string name="nhm_gov1">Minsitry of Health and Family Welfare</string>
+
+    <string name="name_of_mentor_label">Name of Mentor:</string>
+    <string name="state_label">State:</string>
+    <string name="district_label">District:</string>
+    <string name="block_label">Block:</string>
+    <string name="type_of_facility_label">Type of facility:</string>
+    <string name="name_of_facility_label">Name of facility:</string>
+    <string name="level_of_facility_label">Level of facility:</string>
+    <string name="date_of_visit_label">Date of Visit:</string>
+    <string name="click_here_to_upload_facility_pictures_label">Click here to upload facility pictures</string>
+    <string name="uploaded_images_label">Uploaded Images</string>
+    <string name="alert_no_records_found">No records found</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="alert_saved_successfully">Saved successfully</string>
+    <string name="alert_not_saved_to_db">Not Saved to db</string>
+    <string name="section_common_header_2">Level of Intervention</string>
+    <string name="section_common_header_3">Current</string>
+    <string name="section_common_header_4">Previous</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="button_save">save</string>
+    <string name="button_back">back</string>
+    <string name="common_available">Available</string>
+    <string name="common_not_available">Not Available</string>
+    <string name="common_available_but_not_functional">Available but not functional</string>
+    <string name="na">NA</string>
+
+    <string name="section_a_header_1">Details of Mentoring Visit</string>
+
+    <string name="section_b_header_1">Details of Labor Room Staff</string>
+    <string name="section_b_header_2">Labels</string>
+    <string name="section_b_label_dLoad">Average Monthly Delivery Load</string>
+    <string name="section_b_label_1">Total number of OBG specialists working in LR</string>
+    <string name="section_b_label_2">Number of OBG specialists trained in Dakshata</string>
+    <string name="section_b_label_3">Total number of Medical Officers working in LR</string>
+    <string name="section_b_label_4">Number of Medical Officers trained in Dakshata/ Skills lab</string>
+    <string name="section_b_label_5">Total number of Staff Nurses working in LR</string>
+    <string name="section_b_label_6">Number of staff nurses trained in Dakshata/ Skills lab</string>
+    <string name="section_b_label_7">Total number of ANMs working in LR</string>
+    <string name="section_b_label_9">Total number of LHVs working in LR</string>
+
+    <string name="section_b_label_8">Number of ANMs trained in Dakshata/Skills lab</string>
+    <string name="section_b_label_10">Number of LHVs trained in Dakshata/Skills lab</string>
+    <string name="section_b_label_nofMember">Number of Nursing staff available exclusively for LR/ANC/PNC</string>
+    <string name="section_b_label_NHMToolkit">Number of Nursing Staff Required-as per MNH Toolkit</string>
+    <string name="section_b_label_varianceInStaff">Variance in Staff</string>
+    <string name="section_b_label_LRNumber">Number of Labour Table in LR</string>
+    <string name="section_b_label_TableRequired">Number of Labour Table required</string>
+
+    <string name="section_b_label_varInTable">Variance in Labour Table</string>
+    <string name="section_b_label_isFacilityperforming_case">Is facility performing caesarian sections? </string>
+    <string name="section_b_label_nameOfNodal">Name of Nodal Person/Labour Room in Charge/Nursing in Charge</string>
+    <string name="section_b_label_mobileOfNodal">Mobile Number of Nodal Person/Labour Room in Charge/Nursing in Charge</string>
+
+
+    <string name="facility_performing_caesarian">Is facility performing caesarian sections? </string>
+
+    <string name="section_c_header_1">Details of Labor Room Infrastructure</string>
+    <string name="section_c_label_2">Does the labor room windows-have curtains of light color or frosted glass?</string>
+    <string name="section_c_label_3">Is there a provision for cover by screens or curtains around each labor table?</string>
+    <string name="section_c_label_4">Is the labor room floor constructed with anti-skid tiles/natural stone or equivalent material?</string>
+    <string name="section_c_label_5">Do the labor room walls have tiles extending upto the height of labor room door?</string>
+    <string name="section_c_label_6">Does the labor room have an air-conditioner with adequate tonnage capacity?</string>
+    <string name="section_c_label_7">Does the labor room have adequate exhaust for ventilation?</string>
+    <string name="section_c_label_8">Is there a focus lamp/shadow-less light for each labor table?</string>
+    <string name="section_c_label_9">Does the labor room have adequate power back up?</string>
+    <string name="section_c_label_10">Is the number of labor tables as per delivery load of facility?</string>
+    <string name="section_c_label_11">Do the labor tables have adequate space between them (preferably 6 feet)?</string>
+    <string name="section_c_label_12">Are all labor tables clean, non-rusted and not broken?</string>
+    <string name="section_c_label_13">Does each labor table have a clean McIntosh or disposable draw sheet?</string>
+    <string name="section_c_label_14">Is the radiant warmer in direct access from all labor tables?</string>
+    <string name="section_c_label_15">Is there a facility for seating of birth companion at each labor table?</string>
+    <string name="section_c_label_16">Does the labor room have an access to a functional washroom with running water supply?</string>
+    <string name="section_c_label_17">Does the labor room have an access to a dirty utility area?</string>
+    <string name="section_c_label_18">Is there a functional hand washing station (with running water and soap) in the labor room?</string>
+    <string name="section_c_label_19">Does the hand washing station have an elbow operated tap?</string>
+    <string name="section_c_label_20">Does the radiant warmer has free space on three sides?</string>
+
+    <string name="section_d_header_1">Details of Essential Resources in Labor Room</string>
+    <string name="section_d_label_1">Inj. Magnesium sulfate (at least 20 ampoules)</string>
+    <string name="section_d_label_2">Antibiotics for mother (As per GoI recommendation)</string>
+    <string name="section_d_label_3">Antibiotics for baby (As per GoI recommendation)</string>
+    <string name="section_d_label_4">Inj. Oxytocin</string>
+    <string name="section_d_label_5">Inj. Vitamin K1</string>
+    <string name="section_d_label_6">IV fluids</string>
+    <string name="section_d_label_7">Antiretroviral drugs for mother</string>
+    <string name="section_d_label_8">Soap and running water</string>
+    <string name="section_d_label_9">Gloves</string>
+    <string name="section_d_label_10">Uristix (for urine protein and sugar)</string>
+    <string name="section_d_label_11">Case Sheet</string>
+    <string name="section_d_label_12">Cord clamps</string>
+    <string name="section_d_label_13">Sterile scissors</string>
+    <string name="section_d_label_14">Sterile perineal pads</string>
+    <string name="section_d_label_15">Towels for receiving newborn</string>
+    <string name="section_d_label_16">Disposable syringes and needles</string>
+    <string name="section_d_label_17">IV sets</string>
+    <string name="section_d_label_18">Antenatal corticosteroids (Inj. Dexamethasone)</string>
+    <string name="section_d_label_19">Ambu bag for babies for both term and preterm masks (size 1 and 0)</string>
+    <string name="section_d_label_20">BP apparatus</string>
+    <string name="section_d_label_21">Stethoscope</string>
+    <string name="section_d_label_22">Thermometer</string>
+    <string name="section_d_label_23">Mucous extractors</string>
+    <string name="section_d_label_24">Suction device</string>
+    <string name="section_d_label_25">Functional radiant warmer</string>
+    <string name="section_d_label_26">Protocol posters displayed</string>
+
+    <string name="section_e_header_1">Details of Adherence to 19 Clinical Practices</string>
+    <string name="section_e_label_1">Provider conducts an appropriate and adequate assessment of clinical condition of pregnant woman and fetus at the time of admission</string>
+    <string name="section_e_label_2">Provider conducts internal examination appropriately</string>
+    <string name="section_e_label_3">Provider identifies and manages HIV in pregnant woman and newborn</string>
+    <string name="section_e_label_4">Provider identifies and manages infection in pregnant woman</string>
+    <string name="section_e_label_5">Provider identifies conditions leading to preterm delivery and  facilitates preventive care</string>
+    <string name="section_e_label_6">Provider identifies and manages severe Pre-eclampsia/Eclampsia (PE/E)</string>
+    <string name="section_e_label_7">Provider monitors progress of labour in every case and adjusts care accordingly correctly fills partograph to monitor progress of labour and timely interprets results for decision</string>
+    <string name="section_e_label_8">Provider ensures respectful and supportive care for the woman coming for delivery</string>
+    <string name="section_e_label_9">Provider prepares for safe care during delivery</string>
+    <string name="section_e_label_10">Provider assists the woman to have a safe and clean birth</string>
+    <string name="section_e_label_11">Provider conducts a rapid initial assessment and performs immediate newborn care (if baby cried immediately)</string>
+    <string name="section_e_label_12">Provider performs newborn resuscitation if baby does not cry immediately after birth</string>
+    <string name="section_e_label_13">Provider performs Active Management of Third Stage of Labour (AMTSL)</string>
+    <string name="section_e_label_14">Provider identifies and manages Postpartum Hemorrhage (PPH)</string>
+    <string name="section_e_label_15">Provider assesses condition of mother and baby before shifting them  from labour room</string>
+    <string name="section_e_label_16">Provider ensures exclusive and on demand breastfeeding</string>
+    <string name="section_e_label_17">Provider ensures care of newborns with small size at birth</string>
+    <string name="section_e_label_18">Provider counsels mother and family at the time of discharge</string>
+    <string name="section_e_label_19">The facility adheres to universal infection prevention protocols</string>
+
+    <string name="section_f_header_1">Details of Topics Covered During Mentoring Visit</string>
+    <string name="section_f_label_1">Reorganization of labor room</string>
+    <string name="section_f_label_2">Infection prevention</string>
+    <string name="section_f_label_3">Correct estimation of gestational age</string>
+    <string name="section_f_label_4">Performing PV examination</string>
+    <string name="section_f_label_5">Appropriate use of antibiotics</string>
+    <string name="section_f_label_6">Use of antenatal corticosteroids for preterm labor</string>
+    <string name="section_f_label_7">Conducting normal delivery</string>
+    <string name="section_f_label_8">Active management of third stage of labor (AMTSL)</string>
+    <string name="section_f_label_9">Essential newborn care (ENBC)</string>
+    <string name="section_f_label_10">Newborn resuscitation</string>
+    <string name="section_f_label_11">Special care of newborns with small size at birth</string>
+    <string name="section_f_label_12">Identification and management of PPH</string>
+    <string name="section_f_label_13">Identification and management of severe pre-eclampsia and eclampsia</string>
+    <string name="section_f_label_14">Identification and management of prolonged and obstructed labor</string>
+    <string name="section_f_label_15">Plotting of partograph</string>
+    <string name="section_f_label_16">Drill on normal delivery, AMTSL and ENBC</string>
+    <string name="section_f_label_17">Drill on PPH</string>
+    <string name="section_f_label_18">Drill on PE/E</string>
+    <string name="section_f_label_19">Drill on newborn resuscitation</string>
+
+    <string name="section_g_header_1">Details of Data Recording and Reporting</string>
+    <string name="section_g_label_1">Are Case Sheets used for all cases in the labor room?</string>
+    <string name="section_g_label_2">Does the facility use standardised labor room register as per MNH Toolkit?</string>
+    <string name="section_g_label_3">Is the Labor Room MIS software functional?</string>
+    <string name="section_g_label_4">Does the facility have an exclusive computer Operator available for delivery records data entry?</string>
+
+    <string name="section_h_label_1">Date of Next Visit Planned</string>
+
+    <string name="section_i_label_1">Any Additional Comments or Remarks</string>
+    <string name="alert_please_fill_visit_detail">Please fill Details of Visit first</string>
+    <string name="facilityNameKey">facilityNameKey</string>
+    <string name="facilityTypeKey">facilityTypeKey</string>
+    <string name="alert_please_select_district">Please select District</string>
+
+
+    <string name="button_previous_visit">Populate Previous Visit Data</string>
+    <string name="district_hospital">District Hospital</string>
+    <string name="ah">Area Hospital</string>
+    <string name="sub_district_hospital">Sub-district Hospital</string>
+    <string name="community_health_center">Community Health Center</string>
+    <string name="primary_health_center">Primary Health Center</string>
+    <string name="sub_center">Sub-center</string>
+    <string name="others">Others</string>
+    <string name="record_id">RecordId</string>
+    <string name="session_new">sessionNew</string>
+    <string name="session_already_exists">Session already exists.</string>
+
+    <!-- New string for Infrastructure to show field name only -->
+    <string name="section_c_label_1_new">Entry to the labor room is not direct?</string>
+
+    <!-- Staff Maternity Validations alert -->
+    <string name="alert_staff_1">Number of OBG trained must be equal or less than number of OBG specialist.</string>
+    <string name="alert_staff_2">Number of Medical Officers trained must be equal or less than number of Medical Officers working in LR.</string>
+    <string name="alert_staff_3">Number of Staff Nurses trained must be equal or less than number of Staff Nurses working in LR.</string>
+    <string name="alert_staff_4">Number of ANMs trained must be equal or less than number of ANMs working in LR.</string>
+    <string name="alert_staff_5">Number of LHVs trained must be equal or less than number of LHVs working in LR.</string>
+    <string name="required">Required:</string>
+
+    <string name="please_select_atleast_one_value">Please select atleast one value</string>
+
+    <string-array name="stats">
+        <item>Select</item>
+        <item>Uttar pradesh</item>
+        <item>Madhya pradesh</item>
+        <item>Telangana</item>
+        <item>andra Pradesh</item>
+    </string-array>
+
+    <string-array name="select_distric">
+        <item>Select</item>
+        <item>Agar</item>
+        <item>Alirajpur</item>
+        <item> Anoorpur</item>
+        <item>Ashoknagar</item>
+        <item>Badvani</item>
+        <item>Betul</item>
+        <item>Bhind</item>
+        <item>Bhopal</item>
+        <item>Burhanpur</item>
+        <item>Chatarpur</item>
+        <item>Chinwara</item>
+        <item>Damoh</item>
+        <item>Datia</item>
+        <item>Dewas</item>
+        <item>dhar</item>
+        <item>Dindori</item>
+        <item>Guna</item>
+        <item>Gwalior</item>
+        <item>Hrda</item>
+        <item>Hoshangabad</item>
+        <item>Indore</item>
+        <item>Jabalpur</item>
+        <item>Jhabua</item>
+        <item>katni</item>
+        <item>khndwa</item>
+        <item>khargone</item>
+        <item>Mandila</item>
+        <item>Mandsaur</item>
+        <item>Morina</item>
+        <item>Narasinghpur</item>
+        <item>Neemach</item>
+        <item>Panna</item>
+        <item>Raisen</item>
+        <item>Rajgarh</item>
+        <item>Ratlam</item>
+        <item>Rewa</item>
+        <item>Rewa</item>
+        <item>Sagar</item>
+        <item>Satna</item>
+        <item>Sehore</item>
+        <item>Seoni</item>
+        <item>Shahdol</item>
+        <item>Shajapur</item>
+        <item>Sheopur</item>
+        <item>Shivpuri</item>
+        <item>Shdhi</item>
+        <item>Sigrolli</item>
+        <item>tekamgarh</item>
+        <item>Ujjain</item>
+        <item>Umaria</item>
+        <item>Vdisha</item>
+    </string-array>
+
+    <string-array name="select_block">
+        <item>Select</item>
+        <item>Niwali</item>
+        <item>Rajpur</item>
+        <item>Pati</item>
+        <item>Sendawa</item>
+        <item>Thikari</item>
+        <item>Barwani</item>
+        <item>Pansimal</item>
+    </string-array>
+
+    <string-array name="facility_type">
+        <item>Select</item>
+        <item>TH  GMH</item>
+        <item>TH  GGH</item>
+        <item>TH  RIMS</item>
+        <item>TH KGH</item>
+        <item>TH GVH</item>
+        <item>DISPENSARY</item>
+        <item>Medical College Hospital</item>
+        <item>Referral Hospital</item>
+        <item>Area Hospital</item>
+        <item>District Hospital</item>
+        <item>Sub-district Hospital</item>
+        <item>Community Health Center</item>
+        <item>Primary Health Center</item>
+        <item>Sub-center</item>
+        <item>Others</item>
+
+    </string-array>
+
+    <string-array name="facility_level">
+        <item>Select</item>
+        <item>L3</item>
+        <item>L2</item>
+        <item>L1</item>
+
+    </string-array>
+    <string-array name="crade_values">
+        <item>Select Value</item>
+        <item>OBG</item>
+        <item>MO</item>
+        <item>SN</item>
+        <item>LHV</item>
+        <item>ANM</item>
+
+    </string-array>
+    <string-array name="pack_value">
+        <item>Select Value</item>
+        <item>C</item>
+        <item>NC</item>
+        <item>A</item>
+
+    </string-array>
+
+    <string-array name="level_of_intervention">
+        <item>Select</item>
+        <item>State</item>
+        <item>District</item>
+        <item>Block</item>
+        <item>Facility</item>
+    </string-array>
+
+
+    <string name="alert">Alert</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="c_text">Competency of Skills(out of 9)</string>
+
+
+    <string name="provider_wise_tracking">Provider Wise Competency Tracking</string>
+    <string name="client_feedback_form">Client Feedback Form</string>
+    <string name="provider_wise_tracking_text">PACK (Provider Assessment for Competency &amp; Knowledge)</string>
+
+    <declare-styleable name="MyDynamicCalendar" />
+
+</resources>

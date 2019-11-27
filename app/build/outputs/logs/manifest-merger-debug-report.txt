@@ -1,0 +1,724 @@
+-- Merging decision tree log ---
+provider#com.dakshata.mentor.GenericFileProvider
+INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:83:9-91:20
+	android:grantUriPermissions
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:87:13-47
+	android:authorities
+		INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:85:13-80
+	android:exported
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:86:13-37
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:84:13-48
+manifest
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:2:1-97:12
+INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:2:1-97:12
+INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:2:1-97:12
+INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:2:1-97:12
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\08d6e7d58eb561f5142a8da0d2579ae1\AndroidManifest.xml:2:1-19:12
+MERGED from [:library] E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [org.aviran.cookiebar2:cookiebar2:1.0.5] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\cookiebar2-1.0.5.aar\8cf44a2ca78e54192b2964d5a80fe4a6\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\fe2cc6008d2575258b13c7415eb54f29\AndroidManifest.xml:17:1-24:12
+MERGED from [com.evrencoskun.library:tableview:0.8.8] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\tableview-0.8.8.aar\a3c9ead102d6e00d0891dcd0a67e3b27\AndroidManifest.xml:18:1-33:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\9f3b9360134652eb047daf9d8479e60b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\05ada23d308845c1556440627e3a3971\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\8e740bdae63aec3fb9224e2cff961467\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\12e0e7b9cce1735600cd03bf0b9791a6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-base-1.0.6.aar\37ea2bbe8fdd638142f0d743d11ebf65\AndroidManifest.xml:20:1-32:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\179dcb5e326000920611e3da382d434a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jaredrummler:material-spinner:1.1.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\material-spinner-1.1.0.aar\2ff6ad9642d97603ba9e3706991f31d4\AndroidManifest.xml:18:1-25:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.3.aar\aec7c49d08f454718df4f7f18153ee4c\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\7de5d7e46b7ccab29de184239cbb434e\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\97ac34a26c5d2076df776b28db09fa94\AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.firebase:firebase-config:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-config-11.0.4.aar\4877dd653e9754bba2bc24c6f6636eb5\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\6bd0ba843f42a7cede9e4bfe73f678a2\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\ea79a1c92cd27f16d3820c7da0db5adf\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\9892ef060bbfcb0d1dc09f64a82cecd8\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\dacfa2930fe5772c316bae2ea90e6ebc\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\469bf0c877deb7070998daf9b38f895f\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d034136020b1232286373e3cba2cc600\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\e36c7cf62cf130426084b2ab49ddb70f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\82bf99e9a7bb06bb80269bda4bcb4b6c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3aff738a3565f8c9dd1194f2222bc89b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\4822312d2eb4f7a2651c510db6212302\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1e3051b38a919328255b415d7fa84056\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\c739bb04a9d1eda3e82a924e4ea55283\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\0185d5bef571e251cf49a7a3d7fbd16e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\b2ff1ad97eae1bc639634bd1d5fe5ca9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\02e2bb9059322d050997291238f854ba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\92b6d5ba5dfe1567e9eaa683fed6b965\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\ec428d5efb65533f7247ddc6087dd3fe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d1b448d9f0f41250a6844e547d0cf9fb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\242bc2abda9e0faf1b3214a4d67f4dd9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\606e149ec80d0ac565b3217adad6f934\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\8f0a648464ae1f5683a6caf584313b1e\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\20face13f1d84bda1e2d07d5672ff236\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0b783901647f522145bf3366c22f676f\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b7232cdae032325974782c5a49851fa2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0a0dbf7dd335fd0803b0b4e9914963d0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b219c941d288577fdd126ef0c4ee1565\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\01f9b9a0666e5a350f0c483483f879a9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\bd5c3597808dda22692b67dd967a893f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\19a614553880b4f99389c622c8ffdd41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3f1b64ab7616348a0a2126ac10cc6d55\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\3e261c5343445e4c7fbbc96877074049\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\e96193c77c3b1f922b47f588f6728b6a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\42c3d1666e51ddd1c559ff115710fddd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\2f0e90d7a71eefeb5c7081129a4a23a0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e04feec3aafbcb4ec92143a787429da9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.3.aar\e2a5756ba295fb50fb5cd43f9bf4bd58\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\answers-1.4.2.aar\614c702b0b6f2fb8394e8c91a5234c02\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.8] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\beta-1.2.8.aar\88ca7bc471c601743938b0df9f517d61\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\fabric-1.4.3.aar\24aa3d96fafdeca005919ba968b87685\AndroidManifest.xml:22:1-33:12
+INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:2:1-97:12
+INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:2:1-97:12
+INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:2:1-97:12
+	package
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:2:1-97:12
+		INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:2:1-97:12
+		INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.INTERNET
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:9:5-66
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-base-1.0.6.aar\37ea2bbe8fdd638142f0d743d11ebf65\AndroidManifest.xml:29:5-67
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-base-1.0.6.aar\37ea2bbe8fdd638142f0d743d11ebf65\AndroidManifest.xml:29:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.3.aar\aec7c49d08f454718df4f7f18153ee4c\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.3.aar\aec7c49d08f454718df4f7f18153ee4c\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:20:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.3.aar\e2a5756ba295fb50fb5cd43f9bf4bd58\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.3.aar\e2a5756ba295fb50fb5cd43f9bf4bd58\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\answers-1.4.2.aar\614c702b0b6f2fb8394e8c91a5234c02\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\answers-1.4.2.aar\614c702b0b6f2fb8394e8c91a5234c02\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.8] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\beta-1.2.8.aar\88ca7bc471c601743938b0df9f517d61\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.8] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\beta-1.2.8.aar\88ca7bc471c601743938b0df9f517d61\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\fabric-1.4.3.aar\24aa3d96fafdeca005919ba968b87685\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\fabric-1.4.3.aar\24aa3d96fafdeca005919ba968b87685\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:11:22-76
+application
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:14:5-95:19
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\08d6e7d58eb561f5142a8da0d2579ae1\AndroidManifest.xml:11:5-17:19
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\08d6e7d58eb561f5142a8da0d2579ae1\AndroidManifest.xml:11:5-17:19
+MERGED from [:library] E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:library] E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [org.aviran.cookiebar2:cookiebar2:1.0.5] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\cookiebar2-1.0.5.aar\8cf44a2ca78e54192b2964d5a80fe4a6\AndroidManifest.xml:11:5-13:44
+MERGED from [org.aviran.cookiebar2:cookiebar2:1.0.5] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\cookiebar2-1.0.5.aar\8cf44a2ca78e54192b2964d5a80fe4a6\AndroidManifest.xml:11:5-13:44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\fe2cc6008d2575258b13c7415eb54f29\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\fe2cc6008d2575258b13c7415eb54f29\AndroidManifest.xml:22:5-20
+MERGED from [com.evrencoskun.library:tableview:0.8.8] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\tableview-0.8.8.aar\a3c9ead102d6e00d0891dcd0a67e3b27\AndroidManifest.xml:27:5-31:19
+MERGED from [com.evrencoskun.library:tableview:0.8.8] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\tableview-0.8.8.aar\a3c9ead102d6e00d0891dcd0a67e3b27\AndroidManifest.xml:27:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\05ada23d308845c1556440627e3a3971\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\05ada23d308845c1556440627e3a3971\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\12e0e7b9cce1735600cd03bf0b9791a6\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\12e0e7b9cce1735600cd03bf0b9791a6\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.3.aar\aec7c49d08f454718df4f7f18153ee4c\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.3.aar\aec7c49d08f454718df4f7f18153ee4c\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\7de5d7e46b7ccab29de184239cbb434e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\7de5d7e46b7ccab29de184239cbb434e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\97ac34a26c5d2076df776b28db09fa94\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\97ac34a26c5d2076df776b28db09fa94\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-config:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-config-11.0.4.aar\4877dd653e9754bba2bc24c6f6636eb5\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-config-11.0.4.aar\4877dd653e9754bba2bc24c6f6636eb5\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\6bd0ba843f42a7cede9e4bfe73f678a2\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\6bd0ba843f42a7cede9e4bfe73f678a2\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\ea79a1c92cd27f16d3820c7da0db5adf\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\ea79a1c92cd27f16d3820c7da0db5adf\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\9892ef060bbfcb0d1dc09f64a82cecd8\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\9892ef060bbfcb0d1dc09f64a82cecd8\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\dacfa2930fe5772c316bae2ea90e6ebc\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\dacfa2930fe5772c316bae2ea90e6ebc\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\469bf0c877deb7070998daf9b38f895f\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\469bf0c877deb7070998daf9b38f895f\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\8f0a648464ae1f5683a6caf584313b1e\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\8f0a648464ae1f5683a6caf584313b1e\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\20face13f1d84bda1e2d07d5672ff236\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\20face13f1d84bda1e2d07d5672ff236\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0b783901647f522145bf3366c22f676f\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0b783901647f522145bf3366c22f676f\AndroidManifest.xml:22:5-23:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.3.aar\e2a5756ba295fb50fb5cd43f9bf4bd58\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.3.aar\e2a5756ba295fb50fb5cd43f9bf4bd58\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\answers-1.4.2.aar\614c702b0b6f2fb8394e8c91a5234c02\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\answers-1.4.2.aar\614c702b0b6f2fb8394e8c91a5234c02\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.8] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\beta-1.2.8.aar\88ca7bc471c601743938b0df9f517d61\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.8] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\beta-1.2.8.aar\88ca7bc471c601743938b0df9f517d61\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\fabric-1.4.3.aar\24aa3d96fafdeca005919ba968b87685\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\fabric-1.4.3.aar\24aa3d96fafdeca005919ba968b87685\AndroidManifest.xml:31:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\20face13f1d84bda1e2d07d5672ff236\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from [:library] E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:16:9-41
+	android:roundIcon
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:17:9-48
+	android:allowBackup
+		ADDED from [:library] E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:15:9-43
+	android:theme
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:20:9-40
+	android:usesCleartextTraffic
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:18:9-44
+uses-library#org.apache.http.legacy
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:21:9-88
+	android:required
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:21:61-85
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:21:23-60
+activity#com.dakshata.mentor.SplashScreen
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:22:10-28:20
+	android:theme
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:23:14-55
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:22:20-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.dakshata.mentor.JhpiegoLogin
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:29:9-30:56
+	android:theme
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:30:13-54
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:29:19-47
+activity#com.dakshata.mentor.ClinicalStandards
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:31:8-53
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:31:18-51
+activity#com.dakshata.mentor.ClinicalStandardsRetr
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:32:8-57
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:32:18-55
+activity#com.dakshata.mentor.CommentsRemarks
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:33:8-51
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:33:18-49
+activity#com.dakshata.mentor.CommentsRemarksRetr
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:34:8-55
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:34:18-53
+activity#com.dakshata.mentor.DetailsOfVisit
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:35:8-42:19
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:35:18-48
+activity#com.dakshata.mentor.DetailsOfVisitRetrieved
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:43:8-59
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:43:18-57
+activity#com.dakshata.mentor.DrugsSupply
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:44:8-47
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:44:18-45
+activity#com.dakshata.mentor.DrugSupplyRetr
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:45:8-50
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:45:18-48
+activity#com.dakshata.mentor.Equipments
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:46:8-46
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:46:18-44
+activity#com.dakshata.mentor.EquipmentsRetr
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:47:8-50
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:47:18-48
+activity#com.dakshata.mentor.Infrastructure
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:48:8-50
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:48:18-48
+activity#com.dakshata.mentor.InfrastructureRetr
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:49:8-54
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:49:18-52
+activity#com.dakshata.mentor.JhpiegoRegistration
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:50:8-51:55
+	android:theme
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:51:12-53
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:50:18-53
+activity#com.dakshata.mentor.MainActivity
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:52:8-48
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:52:18-46
+activity#com.dakshata.mentor.MentoringPractices
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:53:8-54
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:53:18-52
+activity#com.dakshata.mentor.MentoringPracticesRetr
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:54:8-58
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:54:18-56
+activity#com.dakshata.mentor.NextVisitDate
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:55:8-49
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:55:18-47
+activity#com.dakshata.mentor.NextVisitRetr
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:56:8-49
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:56:18-47
+activity#com.dakshata.mentor.RecordingReportingRetr
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:57:8-58
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:57:18-56
+activity#com.dakshata.mentor.RecprdingRoporting
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:58:8-54
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:58:18-52
+activity#com.dakshata.mentor.StaffMaternity
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:59:8-50
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:59:18-48
+activity#com.dakshata.mentor.StaffMaternityRetr
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:60:8-54
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:60:18-52
+activity#com.dakshata.mentor.JhpiegoHistory
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:61:8-50
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:61:18-48
+activity#com.dakshata.mentor.ClientFeedBackForm
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:62:8-54
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:62:18-52
+activity#com.dakshata.mentor.ProfileActivity
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:64:9-52
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:64:19-50
+activity#com.dakshata.mentor.DraftActivity
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:65:9-50
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:65:19-48
+activity#com.dakshata.mentor.SyncActivity
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:66:9-49
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:66:19-47
+activity#com.dakshata.mentor.ComparisionRecord
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:67:9-54
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:67:19-52
+activity#com.dakshata.mentor.RecordingReportingRetrComparision
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:70:9-70
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:70:19-68
+activity#com.dakshata.mentor.MentoringPracticesRetrComparision
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:71:9-70
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:71:19-68
+activity#com.dakshata.mentor.ClinicalStandardsRetrComparision
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:72:9-69
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:72:19-67
+activity#com.dakshata.mentor.DrugSupplyRetrComparision
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:73:9-62
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:73:19-60
+activity#com.dakshata.mentor.InfrastructureRetrComparision
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:74:9-66
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:74:19-64
+activity#com.dakshata.mentor.StaffMaternityRetrComparision
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:75:9-66
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:75:19-64
+activity#com.dakshata.mentor.CalenderSelectionActivity
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:77:9-62
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:77:19-60
+activity#com.dakshata.mentor.WorkplanActivity
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:78:9-53
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:78:19-51
+activity#com.dakshata.mentor.WorkplanSummaryActivity
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:79:9-60
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:79:19-58
+activity#com.dakshata.mentor.CompetencyTracking
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:80:9-55
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:80:19-53
+activity#com.dakshata.NewCompetencyTracking
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:81:9-70
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:81:19-68
+meta-data#io.fabric.ApiKey
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:92:9-94:72
+	android:value
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:94:13-69
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:93:13-44
+uses-sdk
+INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\08d6e7d58eb561f5142a8da0d2579ae1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\08d6e7d58eb561f5142a8da0d2579ae1\AndroidManifest.xml:7:5-9:41
+MERGED from [:library] E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:library] E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [org.aviran.cookiebar2:cookiebar2:1.0.5] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\cookiebar2-1.0.5.aar\8cf44a2ca78e54192b2964d5a80fe4a6\AndroidManifest.xml:7:5-9:41
+MERGED from [org.aviran.cookiebar2:cookiebar2:1.0.5] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\cookiebar2-1.0.5.aar\8cf44a2ca78e54192b2964d5a80fe4a6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\fe2cc6008d2575258b13c7415eb54f29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\fe2cc6008d2575258b13c7415eb54f29\AndroidManifest.xml:20:5-44
+MERGED from [com.evrencoskun.library:tableview:0.8.8] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\tableview-0.8.8.aar\a3c9ead102d6e00d0891dcd0a67e3b27\AndroidManifest.xml:23:5-25:41
+MERGED from [com.evrencoskun.library:tableview:0.8.8] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\tableview-0.8.8.aar\a3c9ead102d6e00d0891dcd0a67e3b27\AndroidManifest.xml:23:5-25:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\9f3b9360134652eb047daf9d8479e60b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\9f3b9360134652eb047daf9d8479e60b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\05ada23d308845c1556440627e3a3971\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\05ada23d308845c1556440627e3a3971\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\8e740bdae63aec3fb9224e2cff961467\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\8e740bdae63aec3fb9224e2cff961467\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\12e0e7b9cce1735600cd03bf0b9791a6\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\12e0e7b9cce1735600cd03bf0b9791a6\AndroidManifest.xml:7:5-43
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-base-1.0.6.aar\37ea2bbe8fdd638142f0d743d11ebf65\AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-base-1.0.6.aar\37ea2bbe8fdd638142f0d743d11ebf65\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\179dcb5e326000920611e3da382d434a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\179dcb5e326000920611e3da382d434a\AndroidManifest.xml:20:5-44
+MERGED from [com.jaredrummler:material-spinner:1.1.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\material-spinner-1.1.0.aar\2ff6ad9642d97603ba9e3706991f31d4\AndroidManifest.xml:21:5-23:41
+MERGED from [com.jaredrummler:material-spinner:1.1.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\material-spinner-1.1.0.aar\2ff6ad9642d97603ba9e3706991f31d4\AndroidManifest.xml:21:5-23:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.3.aar\aec7c49d08f454718df4f7f18153ee4c\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.3.aar\aec7c49d08f454718df4f7f18153ee4c\AndroidManifest.xml:7:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\7de5d7e46b7ccab29de184239cbb434e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\7de5d7e46b7ccab29de184239cbb434e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\97ac34a26c5d2076df776b28db09fa94\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\97ac34a26c5d2076df776b28db09fa94\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-config-11.0.4.aar\4877dd653e9754bba2bc24c6f6636eb5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-config-11.0.4.aar\4877dd653e9754bba2bc24c6f6636eb5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\6bd0ba843f42a7cede9e4bfe73f678a2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\6bd0ba843f42a7cede9e4bfe73f678a2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\ea79a1c92cd27f16d3820c7da0db5adf\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\ea79a1c92cd27f16d3820c7da0db5adf\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\9892ef060bbfcb0d1dc09f64a82cecd8\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\9892ef060bbfcb0d1dc09f64a82cecd8\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\dacfa2930fe5772c316bae2ea90e6ebc\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\dacfa2930fe5772c316bae2ea90e6ebc\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\469bf0c877deb7070998daf9b38f895f\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\469bf0c877deb7070998daf9b38f895f\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d034136020b1232286373e3cba2cc600\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d034136020b1232286373e3cba2cc600\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\e36c7cf62cf130426084b2ab49ddb70f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\e36c7cf62cf130426084b2ab49ddb70f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\82bf99e9a7bb06bb80269bda4bcb4b6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\82bf99e9a7bb06bb80269bda4bcb4b6c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3aff738a3565f8c9dd1194f2222bc89b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3aff738a3565f8c9dd1194f2222bc89b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\4822312d2eb4f7a2651c510db6212302\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\4822312d2eb4f7a2651c510db6212302\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1e3051b38a919328255b415d7fa84056\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1e3051b38a919328255b415d7fa84056\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\c739bb04a9d1eda3e82a924e4ea55283\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\c739bb04a9d1eda3e82a924e4ea55283\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\0185d5bef571e251cf49a7a3d7fbd16e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\0185d5bef571e251cf49a7a3d7fbd16e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\b2ff1ad97eae1bc639634bd1d5fe5ca9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\b2ff1ad97eae1bc639634bd1d5fe5ca9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\02e2bb9059322d050997291238f854ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\02e2bb9059322d050997291238f854ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\92b6d5ba5dfe1567e9eaa683fed6b965\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\92b6d5ba5dfe1567e9eaa683fed6b965\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\ec428d5efb65533f7247ddc6087dd3fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\ec428d5efb65533f7247ddc6087dd3fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d1b448d9f0f41250a6844e547d0cf9fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d1b448d9f0f41250a6844e547d0cf9fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\242bc2abda9e0faf1b3214a4d67f4dd9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\242bc2abda9e0faf1b3214a4d67f4dd9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\606e149ec80d0ac565b3217adad6f934\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\606e149ec80d0ac565b3217adad6f934\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\8f0a648464ae1f5683a6caf584313b1e\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\8f0a648464ae1f5683a6caf584313b1e\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\20face13f1d84bda1e2d07d5672ff236\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\20face13f1d84bda1e2d07d5672ff236\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0b783901647f522145bf3366c22f676f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0b783901647f522145bf3366c22f676f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b7232cdae032325974782c5a49851fa2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b7232cdae032325974782c5a49851fa2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0a0dbf7dd335fd0803b0b4e9914963d0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0a0dbf7dd335fd0803b0b4e9914963d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b219c941d288577fdd126ef0c4ee1565\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b219c941d288577fdd126ef0c4ee1565\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\01f9b9a0666e5a350f0c483483f879a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\01f9b9a0666e5a350f0c483483f879a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\bd5c3597808dda22692b67dd967a893f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\bd5c3597808dda22692b67dd967a893f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\19a614553880b4f99389c622c8ffdd41\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\19a614553880b4f99389c622c8ffdd41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3f1b64ab7616348a0a2126ac10cc6d55\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3f1b64ab7616348a0a2126ac10cc6d55\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\3e261c5343445e4c7fbbc96877074049\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\3e261c5343445e4c7fbbc96877074049\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\e96193c77c3b1f922b47f588f6728b6a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\e96193c77c3b1f922b47f588f6728b6a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\42c3d1666e51ddd1c559ff115710fddd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\42c3d1666e51ddd1c559ff115710fddd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\2f0e90d7a71eefeb5c7081129a4a23a0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\2f0e90d7a71eefeb5c7081129a4a23a0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e04feec3aafbcb4ec92143a787429da9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e04feec3aafbcb4ec92143a787429da9\AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.3.aar\e2a5756ba295fb50fb5cd43f9bf4bd58\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.3.aar\e2a5756ba295fb50fb5cd43f9bf4bd58\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\answers-1.4.2.aar\614c702b0b6f2fb8394e8c91a5234c02\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.2] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\answers-1.4.2.aar\614c702b0b6f2fb8394e8c91a5234c02\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.8] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\beta-1.2.8.aar\88ca7bc471c601743938b0df9f517d61\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.8] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\beta-1.2.8.aar\88ca7bc471c601743938b0df9f517d61\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\fabric-1.4.3.aar\24aa3d96fafdeca005919ba968b87685\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\fabric-1.4.3.aar\24aa3d96fafdeca005919ba968b87685\AndroidManifest.xml:27:5-43
+INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\469bf0c877deb7070998daf9b38f895f\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:88:13-90:57
+	android:resource
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:90:17-55
+	android:name
+		ADDED from E:\Software\Beyond Compare 4.1.7 English\Backup_laptop_02Nov2019\StudioProjects\StudioProjects\NursingMentorApp\app\src\main\AndroidManifest.xml:89:17-67
+provider#com.amitshekhar.debug.DebugDBInitProvider
+ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\08d6e7d58eb561f5142a8da0d2579ae1\AndroidManifest.xml:12:9-16:40
+	android:enabled
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\08d6e7d58eb561f5142a8da0d2579ae1\AndroidManifest.xml:15:13-35
+	android:authorities
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\08d6e7d58eb561f5142a8da0d2579ae1\AndroidManifest.xml:14:13-71
+	android:exported
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\08d6e7d58eb561f5142a8da0d2579ae1\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-1.0.6.aar\08d6e7d58eb561f5142a8da0d2579ae1\AndroidManifest.xml:13:13-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-base-1.0.6.aar\37ea2bbe8fdd638142f0d743d11ebf65\AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\debug-db-base-1.0.6.aar\37ea2bbe8fdd638142f0d743d11ebf65\AndroidManifest.xml:30:22-73
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.3.aar\aec7c49d08f454718df4f7f18153ee4c\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.3.aar\aec7c49d08f454718df4f7f18153ee4c\AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.3.aar\aec7c49d08f454718df4f7f18153ee4c\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.3.aar\aec7c49d08f454718df4f7f18153ee4c\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.3] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.3.aar\aec7c49d08f454718df4f7f18153ee4c\AndroidManifest.xml:13:13-75
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\97ac34a26c5d2076df776b28db09fa94\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\97ac34a26c5d2076df776b28db09fa94\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\97ac34a26c5d2076df776b28db09fa94\AndroidManifest.xml:23:18-87
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\97ac34a26c5d2076df776b28db09fa94\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\97ac34a26c5d2076df776b28db09fa94\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\97ac34a26c5d2076df776b28db09fa94\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\97ac34a26c5d2076df776b28db09fa94\AndroidManifest.xml:25:25-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\e0fe69b1782fb094d0628a8b2ac289b5\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\f9149fb5a0b6f4dbb9e7973e44b33ad5\AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:24:17-71
+permission#com.jhpiego.dakshata.mentor.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:26:22-76
+uses-permission#com.jhpiego.dakshata.mentor.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.jhpiego.dakshata.mentor
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:33:27-58
+category#com.jhpiego.dakshata.mentor
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:43:18-82
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\489ed6e0a61c888e16299d23af370429\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\6bd0ba843f42a7cede9e4bfe73f678a2\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\6bd0ba843f42a7cede9e4bfe73f678a2\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\6bd0ba843f42a7cede9e4bfe73f678a2\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\6bd0ba843f42a7cede9e4bfe73f678a2\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\6bd0ba843f42a7cede9e4bfe73f678a2\AndroidManifest.xml:6:79-143
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\ea79a1c92cd27f16d3820c7da0db5adf\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\ea79a1c92cd27f16d3820c7da0db5adf\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\ea79a1c92cd27f16d3820c7da0db5adf\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\ea79a1c92cd27f16d3820c7da0db5adf\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\dacfa2930fe5772c316bae2ea90e6ebc\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\dacfa2930fe5772c316bae2ea90e6ebc\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Maa\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\dacfa2930fe5772c316bae2ea90e6ebc\AndroidManifest.xml:20:20-65

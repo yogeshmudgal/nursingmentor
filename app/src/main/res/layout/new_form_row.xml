@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvPName"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:gravity="left"
+        android:textColor="#000"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="Competency/Knowledge"
+        android:textStyle="bold"
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:gravity="left"
+        android:textColor="#000"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="Cadre"
+        android:textStyle="bold"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:gravity="left"
+        android:textColor="#000"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="PA Exam"
+        android:textStyle="bold"
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:gravity="left"
+        android:textColor="#000"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="PV Exam"
+        android:textStyle="bold"
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:gravity="left"
+        android:textColor="#000"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="AMTSL"
+        android:textStyle="bold"
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/tv7"
+        android:gravity="left"
+        android:textColor="#000"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="NBR "
+        android:textStyle="bold"
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/tv8"
+        android:gravity="left"
+        android:textColor="#000"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="Hand Hygiene"
+        android:textStyle="bold"
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/tv9"
+        android:gravity="left"
+        android:textColor="#000"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="PE/E Mx"
+        android:textStyle="bold"
+        android:textSize="13sp"/>
+    <TextView
+        android:id="@+id/tv10"
+        android:gravity="left"
+        android:textColor="#000"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="Partograph "
+        android:textStyle="bold"
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/tv11"
+        android:gravity="left"
+        android:textColor="#000"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="PPH Mx"
+        android:textStyle="bold"
+        android:textSize="13sp"/>
+    <TextView
+        android:id="@+id/tv12"
+        android:gravity="left"
+        android:textColor="#000"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="Manage Preterm \n Birth"
+        android:textStyle="bold"
+        android:textSize="13sp"/>
+    <TextView
+        android:id="@+id/tv13"
+        android:gravity="left"
+        android:textColor="#000"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="PNC Counseling"
+        android:textStyle="bold"
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/tv14"
+        android:gravity="left"
+        android:textColor="#000"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="Overall"
+        android:textStyle="bold"
+        android:textSize="13sp" />
+
+</LinearLayout>

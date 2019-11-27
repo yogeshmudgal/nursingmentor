@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+-->
+    <color name="primaryColor">#1a748d</color>
+    <color name="primaryDarkColor">#004860</color>
+
+    <color name="colorPrimary">#1a748d</color>
+    <color name="colorPrimaryDark">#004860</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+  <!--  <color name="primaryColor">#1976d2</color>
+
+    <color name="primaryLightColor">#63a4ff</color>
+
+    <color name="primaryDarkColor">#004ba0</color>
+
+    <color name="primaryTextColor">#ffffff</color>-->
+    <color name="green_500">#ffffff</color>
+
+    <color name="colorOrange">#70FFA500</color>
+    <color name="colorGreen">#70008000</color>
+    <color name="colorGreenDark">#008000</color>
+    <color name="colorRedDark">#ff0000</color>
+    <color name="colorOrangeDark">#FFA500</color>
+    <color name="spinner_back_2">#dbecf9</color>
+
+    <color name="grey">#eeeeee</color>
+    <color name="primaryDark_light">#700277BD</color>
+    <color name="newPrimary">#00bcd4</color>
+    <color name="newPrimaryDark">#00838f</color>
+    <color name="calendar_background_color">#3F51B5</color>
+    <color name="calendar_green_color">#669900</color>
+    <color name="grey_dark">#c1c1c1</color>
+
+    <color name="cell_background_color">#ffffff</color>
+    <color name="cell_text_color">#1f1f1f</color>
+    <color name="header_line_color">@android:color/holo_red_light</color>
+
+
+    <!-- Material Design TableView Colors -->
+    <color name="md_cell_text_color">#1f1f1f</color>
+    <color name="md_column_header_text_color">#696969</color>
+    <color name="md_highlight_row_background_color">#EEEEEE</color>
+    <color name="md_selected_background_color">#F5F5F5</color>
+    <color name="md_cell_line_color">#dbdbdb</color>
+
+    <!-- Overriding the default values of the tableView -->
+    <!-- <color name="cell_line_color">#dbdbdb</color> -->
+    <!-- <color name="table_view_selected_background_color">@color/md_selected_background_color</color> -->
+    <color name="default_background_color">@color/cell_background_color</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+        <include layout="@layout/header_activities" />
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        style="@style/ParentLinearLayoutForm">
+
+        <TextView
+            style="@style/TextViewForAsteric"
+            android:text="@string/section_h_label_1" />
+
+        <TextView
+            android:id="@+id/nv_et1"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textSize="14sp"
+
+            android:hint="DD/MM/YYYY"
+            android:maxLines="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:id="@+id/nv_save"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_save"
+            android:layout_weight="1"/>
+        <Button
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:id="@+id/nv_back"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_back"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>

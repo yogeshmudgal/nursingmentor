@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jhpiego.dakshata.mentor"
+    android:versionCode="3"
+    android:versionName="1.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.jhpiego.dakshata.mentor.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.jhpiego.dakshata.mentor.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.dakshata.mentor.SplashScreen"
+            android:theme="@style/AppFullScreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dakshata.mentor.JhpiegoLogin"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity android:name="com.dakshata.mentor.ClinicalStandards" />
+        <activity android:name="com.dakshata.mentor.ClinicalStandardsRetr" />
+        <activity android:name="com.dakshata.mentor.CommentsRemarks" />
+        <activity android:name="com.dakshata.mentor.CommentsRemarksRetr" />
+        <activity android:name="com.dakshata.mentor.DetailsOfVisit" >
+
+            <!--
+           android:parentActivityName="com.dakshata.mentor.MainActivity" >
+           &lt;!&ndash; Parent activity meta-data to support 4.0 and lower &ndash;&gt;
+           <meta-data
+               android:name="android.support.PARENT_ACTIVITY"
+               android:value="com.dakshata.mentor.MainActivity" />
+            -->
+        </activity>
+        <activity android:name="com.dakshata.mentor.DetailsOfVisitRetrieved" />
+        <activity android:name="com.dakshata.mentor.DrugsSupply" />
+        <activity android:name="com.dakshata.mentor.DrugSupplyRetr" />
+        <activity android:name="com.dakshata.mentor.Equipments" />
+        <activity android:name="com.dakshata.mentor.EquipmentsRetr" />
+        <activity android:name="com.dakshata.mentor.Infrastructure" />
+        <activity android:name="com.dakshata.mentor.InfrastructureRetr" />
+        <activity
+            android:name="com.dakshata.mentor.JhpiegoRegistration"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity android:name="com.dakshata.mentor.MainActivity" />
+        <activity android:name="com.dakshata.mentor.MentoringPractices" />
+        <activity android:name="com.dakshata.mentor.MentoringPracticesRetr" />
+        <activity android:name="com.dakshata.mentor.NextVisitDate" />
+        <activity android:name="com.dakshata.mentor.NextVisitRetr" />
+        <activity android:name="com.dakshata.mentor.RecordingReportingRetr" />
+        <activity android:name="com.dakshata.mentor.RecprdingRoporting" />
+        <activity android:name="com.dakshata.mentor.StaffMaternity" />
+        <activity android:name="com.dakshata.mentor.StaffMaternityRetr" />
+        <activity android:name="com.dakshata.mentor.JhpiegoHistory" />
+        <activity android:name="com.dakshata.mentor.ClientFeedBackForm" />
+        <activity android:name="com.dakshata.mentor.ProfileActivity" />
+        <activity android:name="com.dakshata.mentor.DraftActivity" />
+        <activity android:name="com.dakshata.mentor.SyncActivity" />
+        <activity android:name="com.dakshata.mentor.ComparisionRecord" />
+        <activity android:name="com.dakshata.mentor.RecordingReportingRetrComparision" />
+        <activity android:name="com.dakshata.mentor.MentoringPracticesRetrComparision" />
+        <activity android:name="com.dakshata.mentor.ClinicalStandardsRetrComparision" />
+        <activity android:name="com.dakshata.mentor.DrugSupplyRetrComparision" />
+        <activity android:name="com.dakshata.mentor.InfrastructureRetrComparision" />
+        <activity android:name="com.dakshata.mentor.StaffMaternityRetrComparision" />
+        <activity android:name="com.dakshata.mentor.CalenderSelectionActivity" />
+        <activity android:name="com.dakshata.mentor.WorkplanActivity" />
+        <activity android:name="com.dakshata.mentor.WorkplanSummaryActivity" />
+        <activity android:name="com.dakshata.mentor.CompetencyTracking" />
+        <activity android:name="com.dakshata.NewCompetencyTracking" />
+
+        <provider
+            android:name="com.dakshata.mentor.GenericFileProvider"
+            android:authorities="com.jhpiego.dakshata.mentor.GenericFileProvider.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="f3cf94c593b89ccb2f9c3f3f0a753c4fcfb145f0" />
+
+        <provider
+            android:name="com.amitshekhar.debug.DebugDBInitProvider"
+            android:authorities="com.jhpiego.dakshata.mentor.DebugDBInitProvider"
+            android:enabled="true"
+            android:exported="false" />
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.jhpiego.dakshata.mentor.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.jhpiego.dakshata.mentor" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.jhpiego.dakshata.mentor.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

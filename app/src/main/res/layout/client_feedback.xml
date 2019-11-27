@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+        <include layout="@layout/header_activities_new" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Select Client"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3.2"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rlC1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvCBclient1"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/blank_bg"/>
+                <TextView
+                    android:layout_toRightOf="@+id/tvCBclient1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="Client 1"/>
+
+                <TextView
+                    android:id="@+id/tv1underline"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_below="@+id/tvCBclient1"
+                    android:layout_marginTop="10dp" />
+            </RelativeLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:layout_height="match_parent"/>
+            <RelativeLayout
+                android:id="@+id/rlC2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvCBclient2"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/blank_bg"/>
+                <TextView
+                    android:layout_toRightOf="@+id/tvCBclient2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="Client 2"/>
+                <TextView
+                    android:id="@+id/tv2underline"
+                    android:layout_below="@+id/tvCBclient2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+            </RelativeLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:layout_height="match_parent"/>
+            <RelativeLayout
+                android:id="@+id/rlC3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvCBclient3"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/blank_bg"/>
+                <TextView
+                    android:layout_toRightOf="@+id/tvCBclient3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="Client 3"/>
+                <TextView
+                    android:id="@+id/tv3underline"
+                    android:layout_below="@+id/tvCBclient3"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+            </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/hintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/tvHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="No Client is selected to view Form Data" />
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/tvHint"
+                android:background="@color/colorPrimary"
+                android:text="Submit"
+                android:textColor="@android:color/white"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/formLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1.3"
+                            card_view:cardBackgroundColor="#fff"
+                            card_view:cardCornerRadius="5dp"
+                            card_view:cardElevation="2dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="IPD No."
+                                    android:textColor="#000"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/et_IPDNo"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="number"
+                                    android:hint="Enter IPD No." />
+
+
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1" />
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1.6"
+                            card_view:cardBackgroundColor="#fff"
+                            card_view:cardCornerRadius="5dp"
+                            card_view:cardElevation="2dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="PCTS ID"
+                                    android:textColor="#000"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/et_PCTSId"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="number"
+                                    android:hint="Enter PCTS ID" />
+
+
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="100"
+                            android:layout_height="wrap_content">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="10"
+                                android:padding="5dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvSnoHint"
+                                    android:layout_centerVertical="true"
+                                    android:layout_width="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sr.No" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="55"
+                                android:padding="5dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvQuestionHint"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="Question"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="35"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvOptionHint"
+                                    android:layout_centerVertical="true"
+                                    android:layout_width="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    android:gravity="left"
+                                    android:layout_height="wrap_content"
+                                    android:text="Options" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="100"
+                            android:layout_height="wrap_content">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="10"
+                                android:padding="5dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvSno1"
+                                    android:layout_centerVertical="true"
+                                    android:layout_width="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    android:layout_height="wrap_content"
+                                    android:text="1" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="55"
+                                android:padding="5dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvQuestion1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="How did you reach the hospital for delivery"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="35"
+                                android:padding="5dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+                                <RadioGroup
+                                    android:id="@+id/rGroup1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <RadioButton
+                                        android:id="@+id/rBtnOV"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="Own Vehicle"/>
+                                    <RadioButton
+                                        android:id="@+id/rBtnHA"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="Hospital Ambulance"/>
+                                </RadioGroup>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="100"
+                            android:layout_height="wrap_content">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="10"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvSno2"
+                                    android:layout_centerVertical="true"
+                                    android:layout_width="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    android:layout_height="wrap_content"
+                                    android:text="2" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="55"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvQuestion2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="How is the cleanliness at the hospital?"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="35"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+                                <RadioGroup
+                                    android:id="@+id/rGroup2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <RadioButton
+                                        android:id="@+id/rBtn2Good"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="Good"/>
+                                    <RadioButton
+                                        android:id="@+id/rBtn2HBad"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="Bad"/>
+                                </RadioGroup>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="100"
+                            android:layout_height="wrap_content">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="10"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvSno3"
+                                    android:layout_centerVertical="true"
+                                    android:layout_width="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    android:layout_height="wrap_content"
+                                    android:text="3" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="55"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvQuestion3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="Did a relative/companion accompany you during delivery in the labor room"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="35"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+                                <RadioGroup
+                                    android:id="@+id/rGroup3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <RadioButton
+                                        android:id="@+id/rBtn3Yes"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="Yes"/>
+                                    <RadioButton
+                                        android:id="@+id/rBtn3No"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="No"/>
+                                </RadioGroup>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="100"
+                            android:layout_height="wrap_content">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="10"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvSno4"
+                                    android:layout_centerVertical="true"
+                                    android:layout_width="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    android:layout_height="wrap_content"
+                                    android:text="4" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="55"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvQuestion4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="Was your BP measured at the time of admission?"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="35"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+                                <RadioGroup
+                                    android:id="@+id/rGroup4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <RadioButton
+                                        android:id="@+id/rBtn4Yes"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="Yes"/>
+                                    <RadioButton
+                                        android:id="@+id/rBtn4No"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="No"/>
+                                </RadioGroup>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="100"
+                            android:layout_height="wrap_content">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="10"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvSno5"
+                                    android:layout_centerVertical="true"
+                                    android:layout_width="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    android:layout_height="wrap_content"
+                                    android:text="5" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="55"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvQuestion5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="Was the baby breastfeed within 1 hour of delivery?"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="35"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+                                <RadioGroup
+                                    android:id="@+id/rGroup5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <RadioButton
+                                        android:id="@+id/rBtn5Yes"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="Yes"/>
+                                    <RadioButton
+                                        android:id="@+id/rBtn5No"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="No"/>
+                                </RadioGroup>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="100"
+                            android:layout_height="wrap_content">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="10"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvSno6"
+                                    android:layout_centerVertical="true"
+                                    android:layout_width="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    android:layout_height="wrap_content"
+                                    android:text="6" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="55"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvQuestion6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="After delivery, did someone inform you about danger signs in mother and baby?"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="35"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+                                <RadioGroup
+                                    android:id="@+id/rGroup6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <RadioButton
+                                        android:id="@+id/rBtn6Yes"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="Yes"/>
+                                    <RadioButton
+                                        android:id="@+id/rBtn6No"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="No"/>
+                                </RadioGroup>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="100"
+                            android:layout_height="wrap_content">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="10"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvSno7"
+                                    android:layout_centerVertical="true"
+                                    android:layout_width="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    android:layout_height="wrap_content"
+                                    android:text="7" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="55"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvQuestion7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="After delivery, did a health worker measure your and baby’s temperature?"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="35"
+                                android:padding="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:layout_height="match_parent">
+                                <RadioGroup
+                                    android:id="@+id/rGroup7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <RadioButton
+                                        android:id="@+id/rBtn7Yes"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="Yes"/>
+                                    <RadioButton
+                                        android:id="@+id/rBtn7No"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13sp"
+                                        android:text="No"/>
+                                </RadioGroup>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <Button
+                            android:id="@+id/btn_save"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@color/colorPrimary"
+                            android:text="@string/button_save"
+                            android:textColor="@android:color/white"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "969161442653",
+    "firebase_url": "https://dakshatamentor-f21b9.firebaseio.com",
+    "project_id": "dakshatamentor-f21b9",
+    "storage_bucket": "dakshatamentor-f21b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969161442653:android:0f00eae2d50ad145",
+        "android_client_info": {
+          "package_name": "com.jhpiego.dakshata.mentor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969161442653-90e4lgp52hlsn9buboe7n6gjp6sk67d1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm4kKt8rn8JJllMh6-z_1hKDlO2XgO1s4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

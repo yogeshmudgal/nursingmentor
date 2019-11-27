@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>Version_Code</key>
+        <value>11</value>
+    </entry>
+    <entry>
+        <key>Version_Name</key>
+        <value>1.0.10</value>
+    </entry>
+    <entry>
+        <key>Version_Type</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>Version_Message</key>
+        <value></value>
+    </entry>
+    <entry>
+        <key>lower_version</key>
+        <value>26</value>
+    </entry>
+    <entry>
+        <key>state_code</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>district_code</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>block_code</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>notification_message</key>
+        <value></value>
+    </entry>
+</defaultsMap>

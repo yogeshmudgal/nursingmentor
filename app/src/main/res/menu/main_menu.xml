@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/check_for_draft"
+        android:actionLayout="@layout/header"
+        android:orderInCategory="100"
+        android:title="Review/Edit Data"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sync"
+        android:actionLayout="@layout/header"
+        android:orderInCategory="100"
+        android:title="Sync"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/history"
+        android:actionLayout="@layout/header"
+        android:orderInCategory="100"
+        android:title="Final Records"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/comparision_record"
+        android:actionLayout="@layout/header"
+        android:orderInCategory="100"
+        android:title="Charts"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/workplan"
+        android:actionLayout="@layout/header"
+        android:orderInCategory="100"
+        android:title="Workplan"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/profile"
+        android:actionLayout="@layout/header"
+        android:orderInCategory="100"
+        android:title="Profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:actionLayout="@layout/header"
+        android:orderInCategory="200"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>

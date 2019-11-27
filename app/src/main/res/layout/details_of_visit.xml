@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+        <include layout="@layout/header_activities" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/ParentLinearLayoutFormNew1">
+
+                <TextView
+                    style="@style/TextViewForAstericNew"
+                    android:text="@string/name_of_mentor_label" />
+
+                <TextView
+                    android:id="@+id/dov_et1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="8dp"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ParentLinearLayoutFormNew2">
+
+                <TextView
+                    style="@style/TextViewForAstericNew"
+                    android:text="@string/state_label" />
+
+                <TextView
+                    android:id="@+id/dov_spinner1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:entries="@array/stats"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/G1"
+                style="@style/ParentLinearLayoutFormNew1">
+
+                <TextView
+                    android:id="@+id/RchidG26"
+                    style="@style/TextViewForAstericNew"
+                    android:text="@string/district_label" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/dov_spinner2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:maxLines="1"
+                    android:paddingRight="8dp"
+                    app:ms_arrow_tint="#000"
+                    app:ms_background_color="@color/spinner_back_2"
+                    app:ms_dropdown_max_height="400dp"
+                    app:ms_text_color="#000" />
+
+                <!--<Spinner
+                    android:id="@+id/dov_spinner2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_weight="4"
+                    android:maxLines="1" />-->
+
+                <TextView
+                    android:id="@+id/dov_tv_district"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="8dp"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ParentLinearLayoutFormNew2"
+                android:background="@color/white">
+
+                <TextView
+                    style="@style/TextViewForAstericNew"
+                    android:text="@string/block_label" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/dov_spinner3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="4"
+                    android:background="@color/white"
+                    android:maxLines="1"
+                    app:ms_arrow_tint="#000"
+                    app:ms_background_color="@color/white"
+                    app:ms_dropdown_max_height="400dp"
+                    app:ms_text_color="#000" />
+
+                <!--<Spinner
+                    android:id="@+id/dov_spinner3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:entries="@array/select_block"
+                    android:maxLines="1" />-->
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutFormNew1">
+
+                <TextView
+                    style="@style/TextViewForAstericNew"
+                    android:text="@string/type_of_facility_label" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/dov_spinner5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="4"
+                    android:maxLines="1"
+                    app:ms_arrow_tint="#000"
+                    app:ms_background_color="@color/spinner_back_2"
+                    app:ms_dropdown_max_height="400dp"
+                    app:ms_text_color="#000" />
+
+                <!--<Spinner
+                    android:id="@+id/dov_spinner5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:maxLines="1" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ParentLinearLayoutFormNew2"
+                android:background="@color/white">
+
+                <TextView
+                    style="@style/TextViewForAstericNew"
+                    android:text="@string/name_of_facility_label" />
+
+                <EditText
+                    android:id="@+id/dov_spinner4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="8dp"
+                    android:visibility="gone" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/spinner_facility_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="4"
+                    android:background="@color/white"
+                    android:maxLines="1"
+                    app:ms_arrow_tint="#000"
+                    app:ms_background_color="@color/white"
+                    app:ms_dropdown_max_height="400dp"
+                    app:ms_text_color="#000" />
+
+                <!--<Spinner
+                    android:id="@+id/spinner_facility_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:maxLines="1" />-->
+            </LinearLayout>
+
+           <!-- <LinearLayout
+
+                style="@style/ParentLinearLayoutFormNew1">
+
+                <TextView
+                    style="@style/TextViewForAstericNew"
+                    android:text="@string/level_of_facility_label" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/dov_spinner6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="4"
+                    android:entries="@array/facility_level"
+                    android:maxLines="1"
+                    app:ms_arrow_tint="#000"
+                    app:ms_background_color="@color/spinner_back_2"
+                    app:ms_dropdown_max_height="400dp"
+                    app:ms_text_color="#000" />
+
+                &lt;!&ndash;<Spinner
+                    android:id="@+id/dov_spinner6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/facility_level"
+                    android:layout_weight="4"
+                    android:maxLines="1" />&ndash;&gt;
+            </LinearLayout>-->
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutFormNew2">
+
+                <TextView
+                    style="@style/TextViewForAstericNew"
+                    android:text="@string/date_of_visit_label" />
+
+                <TextView
+                    android:id="@+id/dov_et2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center|left"
+                    android:hint="DD/MM/YYYY"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="8dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutFormNew1">
+
+                <TextView
+                    style="@style/TextViewForAstericNew"
+                    android:text="Visit Status" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup_visit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RadioButton
+                        android:id="@+id/rbPlanned"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Planned" />
+
+                    <RadioButton
+                        android:id="@+id/rbUnplanned"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Unplanned" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutFormNew2">
+
+                <TextView
+                    android:id="@+id/txt_workplan_date"
+                    style="@style/TextViewForAstericNew"
+                    android:text="Workplan Date" />
+
+                <TextView
+                    android:id="@+id/txt_visit_status"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center|left"
+                    android:hint="Planned or Unplanned?"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="8dp" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/dov_visit_status"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="4"
+                    android:background="@color/white"
+                    android:entries="@array/facility_level"
+                    android:maxLines="1"
+                    android:visibility="gone"
+                    app:ms_arrow_tint="#000"
+                    app:ms_background_color="@color/white"
+                    app:ms_dropdown_max_height="400dp"
+                    app:ms_text_color="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#dbecf9"
+                android:minHeight="45dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="8dp"
+                    android:text="@string/click_here_to_upload_facility_pictures_label"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/dov_iv1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/ic_action_nameeee"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1" />
+
+
+                    <!--  <android.support.v7.widget.RecyclerView
+                          android:id="@+id/item_list"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:scrollbars="horizontal"
+                          />-->
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dov_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/button_back"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/dov_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/button_save"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</LinearLayout>

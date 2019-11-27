@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/infra_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+        <include layout="@layout/header_activities" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/sm_previous_visit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="@string/button_previous_visit"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:id="@+id/loilo"
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:text="Level of Intervention" />
+
+                <Spinner
+                    android:id="@+id/infra_spinner1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:entries="@array/level_of_intervention"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_1_new" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg1"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton1"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_2" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg2"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_3" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg3"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio3"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton3"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_4" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg4"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio4"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton4"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_5" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg5"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio5"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton5"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_6" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg6"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio6"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton6"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_7" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg7"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio7"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton7"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_8" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg8"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio8"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton8"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_9" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg9"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio9"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton9"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_10" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg10"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio10"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton10"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_11" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg11"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio11"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton11"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_12" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg12"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio12"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton12"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_13" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg13"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio13"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton13"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_14" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg14"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio14"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton14"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_20" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg20"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio20"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton20"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_15" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg15"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio15"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton15"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_16" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg16"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio16"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton16"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_17" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg17"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio17"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton17"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_18" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg18"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio18"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton18"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+
+                    style="@style/TextViewForAsteric2"
+                    android:text="@string/section_c_label_19" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/infra_rg19"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio19"
+                            style="@style/RadioVForm"
+                            android:text="@string/common_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton19"
+
+                            style="@style/RadioVForm"
+                            android:text="@string/common_no" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/infra_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/button_back"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/infra_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/button_save"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

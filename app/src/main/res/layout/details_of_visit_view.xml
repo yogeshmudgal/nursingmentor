@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+        <include layout="@layout/header_activities" />
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="100"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:text="@string/name_of_mentor_label" />
+
+                <TextView
+                style="@style/TextViewForAsteric"
+                    android:id="@+id/dov_et1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:text="@string/state_label" />
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:id="@+id/dov_spinner1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/G1"
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+                    android:id="@+id/RchidG26"
+                    style="@style/TextViewForAsteric"
+                    android:text="@string/block_label" />
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:id="@+id/dov_spinner2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:text="@string/district_label" />
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:id="@+id/dov_spinner3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:text="@string/type_of_facility_label" />
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:id="@+id/dov_spinner5"
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:text="@string/name_of_facility_label" />
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:id="@+id/dov_spinner4"
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm2">
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:text="@string/level_of_facility_label" />
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:id="@+id/dov_spinner6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                style="@style/ParentLinearLayoutForm3">
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:text="@string/date_of_visit_label" />
+
+                <TextView
+                    style="@style/TextViewForAsteric"
+                    android:id="@+id/dov_et2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:background="#dbecf9"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:minHeight="45dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/uploaded_images_label" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                <ImageView
+                    android:id="@+id/dov_iv1"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+                    <ImageView
+                        android:id="@+id/dov_iv2"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                    <ImageView
+                        android:id="@+id/dov_iv3"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                    <ImageView
+                        android:id="@+id/dov_iv4"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+           <!-- <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="50dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp" />
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="50dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp" />
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="50dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp" />
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="50dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp" />
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="50dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp" />
+
+
+
+
+
+                    &lt;!&ndash;  <android.support.v7.widget.RecyclerView
+                          android:id="@+id/item_list"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:scrollbars="horizontal"
+                          />&ndash;&gt;
+
+                </LinearLayout>
+            </ScrollView>-->
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:id="@+id/dov_save"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_save"
+            android:layout_weight="1"/>
+        <Button
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:id="@+id/dov_back"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:text="@string/button_back"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>
